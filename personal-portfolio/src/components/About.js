@@ -3,7 +3,7 @@ import Info from './info';
 import Stats from './Stats';
 import { FaDownload } from 'react-icons/fa'
 import { Container, Row, Col } from "react-bootstrap";
-import CV from '../assets/Resume.pdf';
+import CV from '../assets/Rabia-Zubair.pdf';
 export const About = () => {
 
     return (
