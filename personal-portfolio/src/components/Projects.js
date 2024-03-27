@@ -1,8 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import proj1 from "../assets/img/recipe-finder.png";
+import proj2 from "../assets/img/booking-system.png";
+import proj3 from "../assets/img/currency-converter.png";
+import proj4 from "../assets/img/real-estate.png";
+import proj5 from "../assets/img/portfolio.png";
 import web1 from "../assets/img/web1.jpeg";
 import web2 from "../assets/img/web2.png";
 import web3 from "../assets/img/web3.jpeg";
@@ -25,29 +27,29 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Travel App",
+      title: "Cook-book Recipe Finder",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: proj1,
     },
     {
-      title: "Business Website",
+      title: "Flights, Buses, Hotels Booking System",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: proj2,
     },
     {
-      title: "Organization Website",
+      title: "Currency Converter",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: proj3,
     },
     {
-      title: "Business Website",
+      title: "Homeland Real Estate",
       description: "Design & Development",
-      imgUrl: web1,
+      imgUrl: proj4,
     },
     {
-      title: "Freelancing Website",
+      title: "Portfolio Website",
       description: "Design & Development",
-      imgUrl: web2,
+      imgUrl: proj5,
     },
     {
       title: "Career Counselling",
