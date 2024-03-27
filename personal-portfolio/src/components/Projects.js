@@ -5,6 +5,7 @@ import proj2 from "../assets/img/booking-system.png";
 import proj3 from "../assets/img/currency-converter.png";
 import proj4 from "../assets/img/real-estate.png";
 import proj5 from "../assets/img/portfolio.png";
+import proj6 from "../assets/img/food-delivery.png";
 import web1 from "../assets/img/web1.jpeg";
 import web2 from "../assets/img/web2.png";
 import web3 from "../assets/img/web3.jpeg";
@@ -52,9 +53,9 @@ export const Projects = () => {
       imgUrl: proj5,
     },
     {
-      title: "Career Counselling",
+      title: "Railfood Service Food Delivery",
       description: "Design & Development",
-      imgUrl: web3,
+      imgUrl: proj6,
     },
     
   ];
